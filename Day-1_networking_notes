@@ -72,11 +72,11 @@ Private IPs: Reserved for local networks, not internet-routable.'
  Ranges:
       10.0.0.0 – 10.255.255.255 (big networks).
                     
-                    172.16.0.0 – 172.31.255.255 (medium).
+      172.16.0.0 – 172.31.255.255 (medium).
                     
-                    192.168.0.0 – 192.168.255.255 (home/small offices).
+      192.168.0.0 – 192.168.255.255 (home/small offices).
                     
-              Example: Your laptop’s 192.168.1.100 or a Docker container’s 172.17.0.2.
+      Example: Your laptop’s 192.168.1.100 or a Docker container’s 172.17.0.2.
               
         **How it works**: Private IPs talk to the internet via NAT (Network Address Translation), where your router swaps private IPs for a public one.
 6. Subnets: Groups of IPs (e.g., 192.168.1.0/24 Means 256 Addresses)
